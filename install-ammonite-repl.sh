@@ -1,11 +1,16 @@
 #!/bin/bash
 
-if [ "$1" == "" ]; then
-    SCALA_VERSION="2.13"
-    VERSION="1.6.9"
-else
+FALLBACK_VERSION="1.7.1"
+
+if [ "$1" != "" ] && [ "$2" != "" ]; then
     SCALA_VERSION="$1"
     VERSION="$2"
+elif [ "$1" != "" ]; then
+    SCALA_VERSION="$1"
+    VERSION=$FALLBACK_VERSION
+else
+    SCALA_VERSION="2.13"
+    VERSION=$FALLBACK_VERSION
 fi
 
 URL=https://github.com/lihaoyi/Ammonite/releases/download/$VERSION/$SCALA_VERSION-$VERSION
