@@ -1,6 +1,9 @@
 #!/bin/bash
 
-FALLBACK_VERSION="1.7.1"
+# remove yourself
+rm $0
+
+FALLBACK_VERSION="1.7.4"
 
 if [ "$1" != "" ] && [ "$2" != "" ]; then
     SCALA_VERSION="$1"
@@ -28,6 +31,3 @@ sudo chmod +x $TARGET
 echo
 
 echo '"amm" is now on the path'
-
-# remove yourself
-rm $0
