@@ -29,5 +29,4 @@ sudo curl -L $URL -o $TARGET
 sudo chmod +x $TARGET
 
 echo
-
 echo '"amm" is now on the path'
