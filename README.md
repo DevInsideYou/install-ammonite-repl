@@ -1,4 +1,4 @@
-# Installs [Ammonite-REPL 2.13:2.1.3](https://ammonite.io/#Ammonite-REPL) on [Ubuntu](https://www.ubuntu.com/)
+# Installs [Ammonite-REPL 2.13:2.1.4](https://ammonite.io/#Ammonite-REPL) on [Ubuntu](https://www.ubuntu.com/)
 
 ```bash
 wget -q https://script.install.devinsideyou.com/ammonite-repl
@@ -16,7 +16,7 @@ sudo chmod +x ammonite-repl && ./ammonite-repl 2.13
 
 ```bash
 wget -q https://script.install.devinsideyou.com/ammonite-repl
-sudo chmod +x ammonite-repl && ./ammonite-repl 2.13 2.1.3
+sudo chmod +x ammonite-repl && ./ammonite-repl 2.13 2.1.4
 ```
 
 ### Runtime Dependencies:
